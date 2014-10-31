@@ -1,0 +1,22 @@
+# Sicherungskopien:
+*.kate-swp
+*~
+
+# KiCAD spezifisch:
+*.bak
+*.pdf
+*.kicad_pcb-bak
+
+# Atmel-Kompilat:
+.dep/
+*.eep
+*.elf
+*.hex
+*.lss
+*.lst
+*.map
+*.o
+*.sym
+
+#Dolphin:
+*.directory

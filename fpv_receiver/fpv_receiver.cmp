@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by Cvpcb (2014-03-29 BZR 4777)-product   date = Do 02 Okt 2014 23:11:23 CEST
+
+BeginCmp
+TimeStamp = /542DB8D0;
+Reference = C1;
+ValeurCmp = 100uF;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB8BB;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB8B0;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB817;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB833;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB83E;
+Reference = C6;
+ValeurCmp = 100uF;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB929;
+Reference = D1;
+ValeurCmp = TVS;
+IdModule  = Diodes_SMD:Diode-Universal-SMA-SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB13A;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB114;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB100;
+Reference = P1;
+ValeurCmp = CONN_9;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x09;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB6E5;
+Reference = P2;
+ValeurCmp = CONN_3X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB95D;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB7FE;
+Reference = R1;
+ValeurCmp = 1R;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB54F;
+Reference = SW1;
+ValeurCmp = CODING_SWITCH;
+IdModule  = Toni:KDR_10;
+EndCmp
+
+BeginCmp
+TimeStamp = /542DB7CF;
+Reference = U1;
+ValeurCmp = LM1084IT-3.3/NOPB;
+IdModule  = Toni:TO220_123;
+EndCmp
+
+EndListe

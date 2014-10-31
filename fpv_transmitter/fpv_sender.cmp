@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (2014-03-29 BZR 4777)-product   date = Do 02 Okt 2014 20:52:41 CEST
+
+BeginCmp
+TimeStamp = /542D4EFB;
+Reference = C1;
+ValeurCmp = 100uF;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D4EF0;
+Reference = C2;
+ValeurCmp = 100uF;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D4AA2;
+Reference = C3;
+ValeurCmp = 100uF;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D4A90;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D4B8D;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D4E3E;
+Reference = C6;
+ValeurCmp = 1uF;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D4B46;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-Universal-SMA-SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D4FA4;
+Reference = D2;
+ValeurCmp = TVS;
+IdModule  = Diodes_SMD:Diode-Universal-SMA-SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D91AC;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /542BC95B;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /542BC72E;
+Reference = P3;
+ValeurCmp = CONN_5;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /542C3D86;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D59CE;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D4E33;
+Reference = R1;
+ValeurCmp = 2R;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D84D2;
+Reference = SW1;
+ValeurCmp = CODING_SWITCH;
+IdModule  = Toni:KDR_10;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D4A05;
+Reference = U1;
+ValeurCmp = LM1117;
+IdModule  = SMD_Packages:DPAK-2;
+EndCmp
+
+EndListe

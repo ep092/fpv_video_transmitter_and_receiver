@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export version="D">
+    <design>
+        <source>/home/toni/kicad/fpv_sender/fpv_sender.sch</source>
+        <date>Do 02 Okt 2014 15:52:12 CEST</date>
+        <tool>Eeschema (2014-03-29 BZR 4777)-product</tool>
+    </design>
+    <components>
+        <comp ref="P3">
+            <value>CONN_5</value>
+            <libsource lib="conn" part="CONN_5"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542BC72E</tstamp>
+        </comp>
+        <comp ref="P2">
+            <value>CONN_6</value>
+            <libsource lib="conn" part="CONN_6"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542BC95B</tstamp>
+        </comp>
+        <comp ref="J1">
+            <value>SMA</value>
+            <footprint>SMA</footprint>
+            <libsource lib="sma" part="SMA"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542BF4DA</tstamp>
+        </comp>
+        <comp ref="P4">
+            <value>CONN_4</value>
+            <libsource lib="conn" part="CONN_4"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542C3D86</tstamp>
+        </comp>
+        <comp ref="U1">
+            <value>LM1117</value>
+            <libsource lib="regul" part="LM317_SOT223"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4A05</tstamp>
+        </comp>
+        <comp ref="C4">
+            <value>1uF</value>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4A90</tstamp>
+        </comp>
+        <comp ref="C3">
+            <value>100uF</value>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4AA2</tstamp>
+        </comp>
+        <comp ref="D1">
+            <value>DIODE</value>
+            <libsource lib="device" part="DIODE"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4B46</tstamp>
+        </comp>
+        <comp ref="C5">
+            <value>100nF</value>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4B8D</tstamp>
+        </comp>
+        <comp ref="P1">
+            <value>CONN_4X2</value>
+            <libsource lib="conn" part="CONN_4X2"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4C69</tstamp>
+        </comp>
+        <comp ref="R1">
+            <value>2R</value>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4E33</tstamp>
+        </comp>
+        <comp ref="C6">
+            <value>1uF</value>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4E3E</tstamp>
+        </comp>
+        <comp ref="C2">
+            <value>100uF</value>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4EF0</tstamp>
+        </comp>
+        <comp ref="C1">
+            <value>100uF</value>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4EFB</tstamp>
+        </comp>
+        <comp ref="D2">
+            <value>TVS</value>
+            <libsource lib="toni" part="TVS"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D4FA4</tstamp>
+        </comp>
+        <comp ref="P5">
+            <value>CONN_2</value>
+            <libsource lib="conn" part="CONN_2"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542D59CE</tstamp>
+        </comp>
+    </components>
+    <libparts>
+        <libpart lib="device" part="C">
+            <description>Condensateur non polarise</description>
+            <footprints>
+                <fp>SM*</fp>
+                <fp>C?</fp>
+                <fp>C1-1</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">C</field>
+                <field name="Value">C</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="device" part="DIODE">
+            <description>Diode simple</description>
+            <footprints>
+                <fp>D?</fp>
+                <fp>S*</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">D</field>
+                <field name="Value">DIODE</field>
+            </fields>
+            <pins>
+                <pin num="1" name="A" type="passive"/>
+                <pin num="2" name="K" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="device" part="R">
+            <description>Resistance</description>
+            <footprints>
+                <fp>R?</fp>
+                <fp>SM0603</fp>
+                <fp>SM0805</fp>
+                <fp>R?-*</fp>
+                <fp>SM1206</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">R</field>
+                <field name="Value">R</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn" part="CONN_2">
+            <description>Symbole general de connecteur</description>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_2</field>
+            </fields>
+            <pins>
+                <pin num="1" name="P1" type="passive"/>
+                <pin num="2" name="PM" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn" part="CONN_4">
+            <description>Symbole general de connecteur</description>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_4</field>
+            </fields>
+            <pins>
+                <pin num="1" name="P1" type="passive"/>
+                <pin num="2" name="P2" type="passive"/>
+                <pin num="3" name="P3" type="passive"/>
+                <pin num="4" name="P4" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn" part="CONN_4X2">
+            <description>Symbole general de connecteur</description>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_4X2</field>
+            </fields>
+            <pins>
+                <pin num="1" name="1" type="passive"/>
+                <pin num="2" name="2" type="passive"/>
+                <pin num="3" name="3" type="passive"/>
+                <pin num="4" name="4" type="passive"/>
+                <pin num="5" name="5" type="passive"/>
+                <pin num="6" name="6" type="passive"/>
+                <pin num="7" name="7" type="passive"/>
+                <pin num="8" name="8" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn" part="CONN_5">
+            <description>Symbole general de connecteur</description>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_5</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+                <pin num="3" name="~" type="passive"/>
+                <pin num="4" name="~" type="passive"/>
+                <pin num="5" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn" part="CONN_6">
+            <description>ymbole general de connecteur</description>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_6</field>
+            </fields>
+            <pins>
+                <pin num="1" name="1" type="passive"/>
+                <pin num="2" name="2" type="passive"/>
+                <pin num="3" name="3" type="passive"/>
+                <pin num="4" name="4" type="passive"/>
+                <pin num="5" name="5" type="passive"/>
+                <pin num="6" name="6" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="regul" part="LM317_SOT223">
+            <description>Linear Regulator (adjustable)</description>
+            <docs>regulator/lm117.pdf</docs>
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">LM317_SOT223</field>
+            </fields>
+            <pins>
+                <pin num="1" name="ADJ" type="input"/>
+                <pin num="2" name="OUT" type="power_out"/>
+                <pin num="3" name="IN" type="input"/>
+            </pins>
+        </libpart>
+        <libpart lib="sma" part="SMA">
+            <fields>
+                <field name="Reference">J</field>
+                <field name="Value">SMA</field>
+                <field name="Footprint">SMA</field>
+            </fields>
+            <pins>
+                <pin num="1" name="RF" type="power_in"/>
+                <pin num="2" name="GND1" type="power_in"/>
+                <pin num="3" name="GND2" type="power_in"/>
+                <pin num="4" name="GND3" type="power_in"/>
+                <pin num="5" name="GND4" type="power_in"/>
+            </pins>
+        </libpart>
+        <libpart lib="toni" part="TVS">
+            <fields>
+                <field name="Reference">D</field>
+                <field name="Value">TVS</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="input"/>
+                <pin num="2" name="~" type="input"/>
+            </pins>
+        </libpart>
+    </libparts>
+    <libraries>
+        <library logical="device">
+            <uri>/usr/local/share/kicad/library/device.lib</uri>
+        </library>
+        <library logical="conn">
+            <uri>/usr/local/share/kicad/library/conn.lib</uri>
+        </library>
+        <library logical="regul">
+            <uri>/usr/local/share/kicad/library/regul.lib</uri>
+        </library>
+        <library logical="toni">
+            <uri>/home/toni/kicad/library_toni/library/toni.lib</uri>
+        </library>
+        <library logical="sma">
+            <uri>/home/toni/kicad/library_toni/library/sma.lib</uri>
+        </library>
+    </libraries>
+    <nets>
+        <net code="1" name="GND">
+            <node ref="D2" pin="2"/>
+            <node ref="C1" pin="2"/>
+            <node ref="C6" pin="2"/>
+            <node ref="P3" pin="3"/>
+            <node ref="C3" pin="2"/>
+            <node ref="C4" pin="2"/>
+            <node ref="U1" pin="1"/>
+            <node ref="P3" pin="1"/>
+            <node ref="P4" pin="4"/>
+            <node ref="P4" pin="3"/>
+            <node ref="P5" pin="2"/>
+            <node ref="C5" pin="2"/>
+            <node ref="P1" pin="1"/>
+            <node ref="P1" pin="3"/>
+            <node ref="P1" pin="5"/>
+            <node ref="C2" pin="2"/>
+        </net>
+        <net code="2" name="Net-(P1-Pad8)">
+            <node ref="P1" pin="8"/>
+        </net>
+        <net code="3" name="Net-(P1-Pad7)">
+            <node ref="P1" pin="7"/>
+        </net>
+        <net code="4" name="Net-(P1-Pad6)">
+            <node ref="P1" pin="6"/>
+            <node ref="P2" pin="6"/>
+        </net>
+        <net code="5" name="Net-(P1-Pad4)">
+            <node ref="P1" pin="4"/>
+            <node ref="P2" pin="5"/>
+        </net>
+        <net code="6" name="Net-(P1-Pad2)">
+            <node ref="P1" pin="2"/>
+            <node ref="P2" pin="4"/>
+        </net>
+        <net code="7" name="Net-(P5-Pad1)">
+            <node ref="P5" pin="1"/>
+            <node ref="R1" pin="1"/>
+        </net>
+        <net code="8" name="Net-(C5-Pad1)">
+            <node ref="C5" pin="1"/>
+            <node ref="R1" pin="2"/>
+            <node ref="C6" pin="1"/>
+            <node ref="U1" pin="3"/>
+            <node ref="D1" pin="2"/>
+            <node ref="D2" pin="1"/>
+        </net>
+        <net code="9" name="Net-(J1-Pad1)">
+            <node ref="J1" pin="1"/>
+            <node ref="P2" pin="2"/>
+        </net>
+        <net code="10" name="Net-(J1-Pad2)">
+            <node ref="P2" pin="1"/>
+            <node ref="J1" pin="2"/>
+            <node ref="J1" pin="5"/>
+            <node ref="P2" pin="3"/>
+            <node ref="J1" pin="4"/>
+            <node ref="J1" pin="3"/>
+        </net>
+        <net code="11" name="Net-(P3-Pad5)">
+            <node ref="P4" pin="1"/>
+            <node ref="P3" pin="5"/>
+        </net>
+        <net code="12" name="Net-(P3-Pad4)">
+            <node ref="P4" pin="2"/>
+            <node ref="P3" pin="4"/>
+        </net>
+        <net code="13" name="VCC">
+            <node ref="C4" pin="1"/>
+            <node ref="D1" pin="1"/>
+            <node ref="C1" pin="1"/>
+            <node ref="C2" pin="1"/>
+            <node ref="U1" pin="2"/>
+            <node ref="C3" pin="1"/>
+            <node ref="P3" pin="2"/>
+        </net>
+    </nets>
+</export>
